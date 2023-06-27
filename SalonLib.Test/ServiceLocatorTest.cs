@@ -1,11 +1,12 @@
 namespace SalonLib.Test;
 
 public class ServiceLocatorTest
+<<<<<<< HEAD
 {
     [Fact]
     public void Service1Test()
     {
-        var expected = "В кабинете";
+        var expected = "В читальном зале";
         var actual = SalonLib.ServiceLocator.GetService("Читать стихи");
         Assert.Equal(expected, actual);
     }
@@ -18,3 +19,4 @@ public class ServiceLocatorTest
         Assert.Equal(expected, actual);
     }
 }
+
